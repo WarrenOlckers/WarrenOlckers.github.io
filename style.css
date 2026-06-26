@@ -9,8 +9,8 @@
 }
 
 :root{
-    --bg-color: black;
-    --text-color: white;
+    --bg-color: rgb(255, 234, 194);
+    --text-color: black;
     --main-color: #ea580c;
 }
 
@@ -28,7 +28,7 @@ body{
     top: 0;
     left:0;
     padding: 4rem 15%;
-    background: rgba(0, 0, 0, 0.315);
+    background: rgba(255, 132, 83, 0.315);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -47,7 +47,7 @@ body{
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
-logo:hover{
+.logo:hover{
     transform: scale(1.1);
 }
 span{
@@ -56,4 +56,37 @@ span{
         #DF8908 10%,
         #ff1d15 100%
     );
+    background-clip: text;
+    color: transparent;
+}
+.navbar a{
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover{
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+.gradient-btn{
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    background: linear-gradient(
+        270deg,
+        #DF8908 10%,
+        #ff1d15 100%
+        );
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: white;
+    border: none;
+    text-wrap: nowrap;
+}
+.gradient-btn:hover{
+    transform:scale(1.05);
 }
