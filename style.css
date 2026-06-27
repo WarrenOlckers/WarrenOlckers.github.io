@@ -185,3 +185,32 @@ section{
     background-color: var(--main-color);
     color: black; 
 }
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    background-color: rgb(255, 197, 158);
+}
+.about-img img{
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px grey;
+    transition: 0.4s ease-in-out;
+}
+.about-img img:hover{
+    box-shadow: 0 0 25px grey,
+                0 0 50px grey,
+                0 0 100px grey;
+}
+.about-content h2{
+    font-size: 7rem;
+    text-align: left;
+}
+.about-content p{
+    font-size: 1.8rem;
+}
+.about-content.btn{
+    margin: 3rem 0;
+}
