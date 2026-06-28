@@ -1,3 +1,4 @@
+// header section
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 menuIcon.onclick = () => {
@@ -10,3 +11,45 @@ const contactButton = document.getElementById("contactButton");
 contactButton.addEventListener("click", function(){
     window.location.href = "mailto:hello@warrenolckers.com";
 });
+
+
+
+
+// project section
+
+const projectLinks = {
+    "thesisProject": "https://github.com/WarrenOlckers/Thesis_XGBoost_Experiment",
+    "stayalotProject": "https://github.com/WarrenOlckers/stayalot-db",
+    "habitProject": "https://github.com/WarrenOlckers/Habit_Tracker",
+    "webappProject": "https://github.com/WarrenOlckers/Mr_Gallow"
+};
+
+Object.entries(projectLinks).forEach(([id, url]) => {
+    const button = document.getElementById(id);
+    if (button) {
+        button.addEventListener("click", function() {
+            window.open(url, "_blank");
+        });
+    }
+});
+//const thesisProjectButton = document.getElementById("thesisProject");
+
+//container.innerHTML = '<a href="https://github.com/WarrenOlckers/Thesis_XGBoost_Experiment" target="_blank">To Project</a>';
+// thesisProjectButtonButton.addEventListener("click", function(){
+//    window.location.href = "https://github.com/WarrenOlckers/Thesis_XGBoost_Experiment";
+// });
+
+//const contactButton = document.getElementById("thesisProject");
+//contactButton.addEventListener("click", function(){
+//    window.location.href = "https://github.com/WarrenOlckers/Thesis_XGBoost_Experiment";
+//});
+
+//const contactButton = document.getElementById("contactButton");
+//contactButton.addEventListener("click", function(){
+//    window.location.href = "mailto:hello@warrenolckers.com";
+//});
+
+//const contactButton = document.getElementById("contactButton");
+//contactButton.addEventListener("click", function(){
+//    window.location.href = "mailto:hello@warrenolckers.com";
+//});
