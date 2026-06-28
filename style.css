@@ -254,19 +254,72 @@ section{
     box-shadow: 0 0 5px var(--main-color);
     transition: 0.3s ease;
 }
-.project-card:hover {
+.project-card:hover{
     box-shadow: 0 0 25px var(--main-color),
                 0 0 50px var(--main-color);
     transform: scale(1.02);
 }
-.project-card img {
+.project-card img{
     max-width: 300px;
     border-radius: 2rem;
     object-fit: cover;
 }
-.project-card h3 {
+.project-card h3{
     font-size: 3rem;
 }
-.project-card p {
+.project-card p{
     font-size: 1.6rem;
+}
+
+.footer{
+    background-color: rgb(255, 197, 158);
+    padding: 50px 0;
+}
+.footer .social-icons{
+    text-align: center;
+}
+.footer ul{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.footer ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer ul li a{
+    color: black;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid var(--main-color);
+}
+.footer .copyright{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+@media(max-width:1285px){
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3rem;
+        background: rgba(255, 132, 83, 0.315);
+        border-bottom-left-radius: 2rem;
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+    }
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem;
+        color: var(--text-color);
+    }
 }
