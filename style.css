@@ -236,6 +236,7 @@ section{
     place-items: center;
     gap: 3rem;
     row-gap: 5rem;
+    grid-auto-rows: 1fr;
 }
 .project-card{
     display: flex;
