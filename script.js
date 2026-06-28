@@ -12,10 +12,10 @@ contactButton.addEventListener("click", function(){
     window.location.href = "mailto:hello@warrenolckers.com";
 });
 
-const contactButton2 = document.getElementById("contactButton2");
-contactButton2.addEventListener("click", function(){
-    window.location.href = "mailto:hello@warrenolckers.com";
-});
+//const contactButton2 = document.getElementById("contactButton2");
+//contactButton2.addEventListener("click", function(){
+//    window.location.href = "mailto:hello@warrenolckers.com";
+//});
 
 
 
