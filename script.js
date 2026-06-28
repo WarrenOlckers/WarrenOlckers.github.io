@@ -37,24 +37,3 @@ Object.entries(projectLinks).forEach(([id, url]) => {
         });
     }
 });
-//const thesisProjectButton = document.getElementById("thesisProject");
-
-//container.innerHTML = '<a href="https://github.com/WarrenOlckers/Thesis_XGBoost_Experiment" target="_blank">To Project</a>';
-// thesisProjectButtonButton.addEventListener("click", function(){
-//    window.location.href = "https://github.com/WarrenOlckers/Thesis_XGBoost_Experiment";
-// });
-
-//const contactButton = document.getElementById("thesisProject");
-//contactButton.addEventListener("click", function(){
-//    window.location.href = "https://github.com/WarrenOlckers/Thesis_XGBoost_Experiment";
-//});
-
-//const contactButton = document.getElementById("contactButton");
-//contactButton.addEventListener("click", function(){
-//    window.location.href = "mailto:hello@warrenolckers.com";
-//});
-
-//const contactButton = document.getElementById("contactButton");
-//contactButton.addEventListener("click", function(){
-//    window.location.href = "mailto:hello@warrenolckers.com";
-//});
