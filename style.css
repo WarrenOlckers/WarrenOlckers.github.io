@@ -225,6 +225,7 @@ section{
 }
 .projects{
     background-color: rgb(255, 197, 158);
+        align-items: center;
 }
 .projects h2{
     font-size: 7rem;
@@ -234,6 +235,7 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     place-items: center;
+    align-items: center;
     gap: 3rem;
     row-gap: 5rem;
     grid-auto-rows: 1fr;
@@ -351,7 +353,12 @@ section{
     .about img{
         width: 52vw;
     }
+    .project-card{
+        align-items: center;
+        width: 80%;
+    }
 }
+
 
 @media(max-width: 768px){
     section{
