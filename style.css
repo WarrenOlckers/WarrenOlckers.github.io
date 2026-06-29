@@ -354,6 +354,6 @@ section{
         width: 52vw;
     }
     .project-card{
-        align-items: center;
+        align-items: left;
     }
 }
