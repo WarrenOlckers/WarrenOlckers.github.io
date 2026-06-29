@@ -225,6 +225,7 @@ section{
 }
 .projects{
     background-color: rgb(255, 197, 158);
+        align-items: center;
 }
 .projects h2{
     font-size: 7rem;
