@@ -352,3 +352,15 @@ section{
         width: 52vw;
     }
 }
+
+@media(max-width: 768px){
+    section{
+        padding: 10rem 5%;
+    }
+    .header{
+        padding: 2rem 5%;
+    }
+    .projects-box{
+        grid-template-columns: 1fr;
+    }
+}
