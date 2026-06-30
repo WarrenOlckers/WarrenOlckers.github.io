@@ -9,9 +9,13 @@
 }
 
 :root{
-    --bg-color: rgb(255, 234, 194);
-    --text-color: black;
-    --main-color: #ea580c;
+    --bg-color: #0B1F1C;
+    --text-color: #E1F5EE;
+    --main-color: #1D9E75;
+    --header-bg: rgba(13, 46, 41, 0.55);
+    --gradient-start: #1D9E75;
+    --gradient-end: #5DCAA5;
+    --sections-bg: #102E29;
 }
 
 html {
@@ -29,7 +33,7 @@ body{
     top: 0;
     left:0;
     padding: 4rem 15%;
-    background: rgba(255, 132, 83, 0.315);
+    background: var(--header-bg);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -54,8 +58,8 @@ body{
 span{
     background: linear-gradient(
         270deg,
-        #DF8908 10%,
-        #ff1d15 100%
+        var(--gradient-start) 10%,
+        var(--gradient-end) 100%
     );
     background-clip: text;
     color: transparent;
@@ -78,8 +82,8 @@ span{
     border-radius: 3rem;
     background: linear-gradient(
         270deg,
-        #DF8908 10%,
-        #ff1d15 100%
+        var(--gradient-start) 10%,
+        var(--gradient-end) 100%
         );
     letter-spacing: 1px;
     cursor: pointer;
@@ -136,7 +140,7 @@ section{
 }
 .social-icons a{
     display: inline-flex;
-    color: black;
+    color: var(--text-color);
     justify-content: center;
     align-items: center;
     font-size: 3rem;
@@ -192,7 +196,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    background-color: rgb(255, 197, 158);
+    background-color: var(--sections-bg);
 }
 .about-img img{
     width: 32vw;
@@ -225,7 +229,7 @@ section{
     background-color: var(--bg-color);
 }
 .projects{
-    background-color: rgb(255, 197, 158);
+    background-color: var(--sections-bg);
         align-items: center;
 }
 .projects h2{
@@ -275,7 +279,7 @@ section{
 }
 
 .footer{
-    background-color: rgb(255, 197, 158);
+    background-color: var(--sections-bg);
     padding: 50px 0;
 }
 .footer .social-icons{
@@ -290,7 +294,7 @@ section{
     margin-left: 20px;
 }
 .footer ul li a{
-    color: black;
+    color: var(--text-color);
     border-bottom: 3px solid transparent;
     transition: 0.3s ease-in-out;
 }
@@ -313,7 +317,7 @@ section{
         right: 0;
         width: 50%;
         padding: 1rem 3rem;
-        background: rgba(255, 132, 83, 0.315);
+        background: var(--header-bg);
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
