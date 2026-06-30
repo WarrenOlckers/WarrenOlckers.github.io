@@ -16,6 +16,7 @@ contactButton.addEventListener("click", function(){
 
 const projectLinks = {
     "thesisProject": "https://github.com/WarrenOlckers/Thesis_XGBoost_Experiment",
+    "readThesis": "https://drive.google.com/file/d/1UgRPJI-oaqnHJtrjUtveoFEOZ5SCQEXa/view?usp=sharing",
     "stayalotProject": "https://github.com/WarrenOlckers/stayalot_data_mart",
     "habitProject": "https://github.com/WarrenOlckers/Habit_Tracker",
     "webappProject": "https://github.com/WarrenOlckers/Mr_Gallow"
