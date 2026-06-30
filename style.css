@@ -234,7 +234,7 @@ section{
 }
 .projects h2{
     font-size: 7rem;
-    text-align: left;
+    text-align: center;
 }
 .projects-box{
     display: grid;
