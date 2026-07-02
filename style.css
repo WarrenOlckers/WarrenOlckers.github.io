@@ -8,7 +8,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-:root{
+/*:root{
     --bg-color: #0B1F1C;
     --text-color: #E1F5EE;
     --main-color: #1D9E75;
@@ -16,7 +16,38 @@
     --gradient-start: #1D9E75;
     --gradient-end: #5DCAA5;
     --sections-bg: #102E29;
-}
+} */
+
+ /*:root{
+    --bg-color: #0D1B2A ;
+    --text-color: #E8F4FD ;
+    --main-color: #00B4D8 ;
+    --header-bg: rgba(13, 27, 42, 0.50);
+    --gradient-start: #00B4D8 ;
+    --gradient-end: #90E0EF ;
+    --sections-bg: #1B2D42 ;
+} */
+
+ /* :root{
+    --bg-color: #111827 ;
+    --text-color: #F0F9FF ;
+    --main-color: #3B82F6 ;
+    --header-bg: rgba(17, 24, 39, 0.50);
+    --gradient-start: #3B82F6 ;
+    --gradient-end: #93C5FD ;
+    --sections-bg: #1E2A3A ;
+} */
+ 
+ :root{
+    --bg-color: #0F172A ;
+    --text-color: #E2F0FB ;
+    --main-color: #38BDF8 ;
+    --header-bg: rgba(15, 23, 42, 0.50);
+    --gradient-start: #38BDF8 ;
+    --gradient-end: #BAE6FD ;
+    --sections-bg: #1E293B ;
+}  
+
 
 html {
     font-size: 60%;
@@ -58,8 +89,8 @@ body{
 span{
     background: linear-gradient(
         270deg,
-        var(--gradient-start) 10%,
-        var(--gradient-end) 100%
+        var(--gradient-end) 10%,
+        var(--gradient-start) 100%
     );
     background-clip: text;
     color: transparent;
@@ -82,8 +113,8 @@ span{
     border-radius: 3rem;
     background: linear-gradient(
         270deg,
-        var(--gradient-start) 10%,
-        var(--gradient-end) 100%
+        var(--gradient-end) 10%,
+        var(--gradient-start) 100%
         );
     letter-spacing: 1px;
     cursor: pointer;
@@ -230,7 +261,7 @@ section{
 }
 .projects{
     background-color: var(--sections-bg);
-        align-items: center;
+    align-items: center;
 }
 .projects h2{
     font-size: 7rem;
@@ -276,6 +307,42 @@ section{
 }
 .project-card p{
     font-size: 1.6rem;
+}
+
+.skills {
+    max-width: 700px;
+    width: 100%;
+    gap: 10rem;
+    background-color: var(--sections-bg);
+}
+.skills h2{
+    font-size: 7rem;
+    text-align: center;
+    
+}
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+.skills-badge {
+    padding: 10px 22px;
+    border: 1px solid var(--main-color);
+    border-radius: 8px;
+    color: var(--text-color);
+    background: transparent;
+    font-size: 2rem;
+    gap: 2rem ;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 229, 255, 0.35);
+    transition: 0.25s ease;
+}
+ .skills-badge:hover {
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 25px rgba(0, 229, 255, 0.7);
 }
 
 .footer{
