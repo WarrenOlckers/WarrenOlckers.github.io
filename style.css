@@ -176,6 +176,8 @@ section{
     border: 2px solid transparent;
     font-weight: 600;
     transition: 0.3 ease-in-out;
+    justify-content: center; /* horizontal */
+    align-items: center;
 }
 .btn:hover{
     transform: scale(1.05);
@@ -218,7 +220,7 @@ section{
     text-align: left;
 }
 .about-content p{
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 .about-content.btn{
     margin: 3rem 0;
@@ -233,6 +235,38 @@ section{
 }
 ::-webkit-scrollbar-track{
     background-color: var(--bg-color);
+}
+.thesis{
+    background-color: var(--sections-bg);
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    gap: 15rem;
+}
+.thesis-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.thesis h2{
+    font-size: 7rem;
+    text-align: center;
+}
+.thesis h3{
+    font-size: 4rem;
+    text-align: center;
+}
+.thesis p{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.thesis .btn{
+    display: inline-block;
+    padding: 1rem 3rem;
+    margin: 3rem 0;
+    align-self: center;
 }
 .projects{
     background-color: var(--sections-bg);
